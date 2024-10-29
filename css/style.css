@@ -1,42 +1,71 @@
-nav {
+/* Header */
+header {
     background-color: #43ff6c;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
+
+img.logo, .Hveterinaria h1 {
+    margin: 5px 7px;
+    width: 200px; 
+    height: 100px;
+    float: left;
+}
+
 .Hveterinaria {
     display: flex;
 }
 
+.Hveterinaria h1 {
+    line-height: 100px;
+    margin-left: 50px;
+}
+
 nav td {
-    width: 200px;
     font-size: 14px;
     text-align: center;
-    border: 1px black solid;
-    border-collapse: collapse;
-    padding: 10px;
+    padding: 10px 0px;
+    background-color: white;
+    width: 14%;
 }
+
+nav table {
+    border-top: 1px grey double;
+    width: 100%;
+    padding: 5px 5px 5px 30px;
+}
+/* End header */
 
 /* Section */
 section {
-    /* background-color: aqua; */
     /* border: 1px black solid; */
     padding: 20px;
     width: 50%;
-    margin-top: 50px;
+    margin-top: 200px;
     margin-left: 100px;
+    margin-bottom: 100px;
 }
+/* End section */
 
 /* footer */
 footer {
-    background-color: #43ff6c;
-    min-width: fit-content;
     /* border: 5px red solid; */
+    background-color: #43ff6c;
+    width: auto;
     text-align: center;
     padding: 15px;
+    position: absolute;
+    bottom: auto;
+    right: 0;
+    left: 0;
 }
 
 footer>p.nomsFooter {
     /* background-color: white; */
-    width: 500px;
     /* border: 1px black solid; */
+    width: 500px;
     display: inline;
     padding: 0px 50px;
     margin: 0px;
@@ -44,9 +73,9 @@ footer>p.nomsFooter {
 
 footer>p:not(p.nomsFooter) {
     /* background-color: white; */
-    width: 500px;
     /* border: 1px black solid; */
+    width: 500px;
     padding: 0px 50px;
     margin: auto;
 }
-
+/* End footer */
