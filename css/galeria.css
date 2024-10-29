@@ -1,25 +1,8 @@
-nav {
-    background-color: #43ff6c;
-}
-.Hveterinaria {
-    display: flex;
-}
-
-nav td {
-    width: 200px;
-    font-size: 14px;
-    text-align: center;
-    border: 1px black solid;
-    border-collapse: collapse;
-    padding: 10px;
-}
-
 .galeria {
     display: flex;
-    
 }
 
-.galeria td {
+.galeria td, .galeria th {
     width: 150px;
     text-align: center;
     border: 3px solid #43ff6c;
@@ -28,11 +11,6 @@ nav td {
 }
 
 .galeria th {
-    width: 150px;
-    text-align: center;
-    border: 3px solid #43ff6c;
-    border-collapse: collapse;
-    padding: 10px;
     font-size: 20px;
 }
 
