@@ -1,8 +1,17 @@
-td {
+nav {
+    background-color: #43ff6c;
+}
+.Hveterinaria {
+    display: flex;
+}
+
+nav td {
     width: 200px;
     font-size: 14px;
     text-align: center;
     border: 1px black solid;
+    border-collapse: collapse;
+    padding: 10px;
 }
 
 /* Section */
@@ -40,3 +49,4 @@ footer>p:not(p.nomsFooter) {
     padding: 0px 50px;
     margin: auto;
 }
+
