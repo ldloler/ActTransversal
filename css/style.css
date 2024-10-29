@@ -13,3 +13,40 @@ nav td {
     border-collapse: collapse;
     padding: 10px;
 }
+
+/* Section */
+section {
+    /* background-color: aqua; */
+    /* border: 1px black solid; */
+    padding: 20px;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+/* footer */
+footer {
+    background-color: #43ff6c;
+    min-width: fit-content;
+    /* border: 5px red solid; */
+    text-align: center;
+    padding: 15px;
+}
+
+footer>p.nomsFooter {
+    /* background-color: white; */
+    width: 500px;
+    /* border: 1px black solid; */
+    display: inline;
+    padding: 0px 50px;
+    margin: 0px;
+}
+
+footer>p:not(p.nomsFooter) {
+    /* background-color: white; */
+    width: 500px;
+    /* border: 1px black solid; */
+    padding: 0px 50px;
+    margin: auto;
+}
+
