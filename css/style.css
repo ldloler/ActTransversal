@@ -51,7 +51,7 @@ nav table {
 section {
     /* border: 1px black solid; */
     padding: 20px;
-    width: 50%;
+    width: 80%;
     margin-top: 200px;
     margin-left: 100px;
     margin-bottom: 150px;
@@ -86,3 +86,43 @@ footer p:not(p.nomsFooter) {
     margin: auto;
 }
 /* End footer */
+
+/* Galeria */
+.galeria {
+    display: flex;
+}
+
+.galeria td, .galeria th {
+    width: 150px;
+    text-align: center;
+    border: 3px solid #43ff6c;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.galeria th {
+    font-size: 20px;
+}
+
+.galeria img {
+    width: 100%;
+}
+/* End Galeria */
+
+/* Recomenacions */
+.recomenacions {
+    display: flex;
+    justify-content: space-between;
+
+}
+.recomenacions div {
+    width: 25%;
+    padding: 10px;
+    border: 1px black solid;
+}
+
+.recomenacions h2 {
+    text-align: center;
+    font-size: 30px;
+}
+/* End Recomenacions */
