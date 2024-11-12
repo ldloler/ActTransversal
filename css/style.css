@@ -155,3 +155,11 @@ footer p:not(p.nomsFooter) {
 }
 
 /* End Recomenacions */
+
+/* Testimonis */
+
+#testimoni {
+    resize: none;
+}
+
+/* EndTestimonis */
