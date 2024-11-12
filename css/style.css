@@ -117,12 +117,41 @@ footer p:not(p.nomsFooter) {
 }
 .recomenacions div {
     width: 25%;
-    padding: 10px;
     border: 1px black solid;
+    color: #212121;
+    margin: 0;
+    padding: 20px;
 }
 
 .recomenacions h2 {
     text-align: center;
     font-size: 30px;
 }
+
+.recomenacions .gossos {
+    background-color: #FFEB3B 
+}
+
+.recomenacions .gossos dl {
+    background-color: #FF7043;
+    border: 1px black solid;
+}
+.recomenacions .gats {
+    background-color: #B39DDB; 
+}
+
+.recomenacions .gats dl {
+    background-color: #FF4081;
+    border: 1px black solid;
+}
+
+.recomenacions .altres {
+    background-color: #A5D6A7; 
+}
+
+.recomenacions .altres dl {
+    background-color: #FF7043;
+    border: 1px black solid;
+}
+
 /* End Recomenacions */
