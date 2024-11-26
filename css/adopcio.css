@@ -65,10 +65,6 @@ div.adopcioContainer>table td:first-child{
     height: 300PX;
 }
 
-div.adopcioContainer>table td p{
-    margin-left: 30px;
-}
-
 div.adopcioContainer>table img{
     width: 100%;
 }
