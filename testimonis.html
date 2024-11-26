@@ -27,8 +27,55 @@
                 </table>
             </nav>
         </header>
-        <section>
-            <h1>Testimonis</h1>
+        <section class="testimoni">
+            <form>
+                <legend><h1>Testimoni</h1></legend>
+
+                <label>Nom:</label>
+                <input type="text" id="nom" required>
+
+                <label>Cognoms:</label>
+                <input type="text" id="cognoms" required>
+
+                <br>
+
+                <label>Edat:</label>
+                <input type="number" id="edat" min="1" max="99" required>
+                <label>Correu electrònic: </label>
+                <input type="email" id="data" placeholder="Ex: correu@electronic.com" required>
+
+                <br>
+
+                <label>Sexe:</label>
+                <input type="radio" id="home" name="sexe">
+                <label>Home</label>
+                <input type="radio" id="dona" name="sexe">
+                <label>Dona</label>
+                <input type="radio" id="altres" name="sexe">
+                <label>Altres</label>
+
+                <br>
+                <br>
+
+                <label>Grau de satisfacció: </label>
+                <br>
+                <input type="radio" id="moltsatisfet" name="satisfaccio">
+                <label>Molt satisfet</label>
+                <input type="radio" id="satisfet" name="satisfaccio">
+                <label>Satisfet</label>
+                <input type="radio" id="pocsatisfet" name="satisfaccio">
+                <label>Poc satisfet</label>
+                <input type="radio" id="genssatisfet" name="satisfaccio">
+                <label>Gens satisfet</label>
+
+                <br><br>
+
+                <label>El teu testimoni:</label>
+                <br>
+                <textarea id="testimoni" rows="8" cols="80"></textarea>
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
         </section>
         <footer>
             <div class="align">
