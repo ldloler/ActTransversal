@@ -1,0 +1,20 @@
+/* INICI nosaltresMarc.css */
+/* Per poder tornar al pare */
+div.tornar {
+    float: right;
+}
+
+div.marcTitol {
+    float: left;
+    width: 800px;
+}
+
+img#imgMarc {
+    width: 50%;
+    padding: 0px 25%;
+}
+
+div.cvMarc {
+    border: 1px pink solid;
+    padding: 0 10%;
+}
