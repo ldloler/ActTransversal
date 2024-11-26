@@ -34,24 +34,24 @@
                 <label>Nom:</label>
                 <input type="text" id="nom" required>
 
-                <label>Cognoms:</label>
+                <label id="cognomsLabel">Cognoms:</label>
                 <input type="text" id="cognoms" required>
 
                 <br>
 
                 <label>Edat:</label>
-                <input type="number" id="edat" min="1" max="99" required>
-                <label>Correu electrònic: </label>
-                <input type="email" id="data" placeholder="Ex: correu@electronic.com" required>
+                <input type="number" id="edat" min="1" max="99"  required>
+                <label id="emailLabel">Correu electrònic: </label>
+                <input type="email" id="email" placeholder="Ex: correu@electronic.com" required>
 
                 <br>
 
                 <label>Sexe:</label>
-                <input type="radio" id="home" name="sexe">
+                <input type="radio" id="home" name="sexe" required>
                 <label>Home</label>
-                <input type="radio" id="dona" name="sexe">
+                <input type="radio" id="dona" name="sexe" required>
                 <label>Dona</label>
-                <input type="radio" id="altres" name="sexe">
+                <input type="radio" id="altres" name="sexe" required>
                 <label>Altres</label>
 
                 <br>
@@ -59,20 +59,20 @@
 
                 <label>Grau de satisfacció: </label>
                 <br>
-                <input type="radio" id="moltsatisfet" name="satisfaccio">
+                <input type="radio" id="moltsatisfet" name="satisfaccio" required>
                 <label>Molt satisfet</label>
-                <input type="radio" id="satisfet" name="satisfaccio">
+                <input type="radio" id="satisfet" name="satisfaccio" required>
                 <label>Satisfet</label>
-                <input type="radio" id="pocsatisfet" name="satisfaccio">
+                <input type="radio" id="pocsatisfet" name="satisfaccio" required>
                 <label>Poc satisfet</label>
-                <input type="radio" id="genssatisfet" name="satisfaccio">
+                <input type="radio" id="genssatisfet" name="satisfaccio" required>
                 <label>Gens satisfet</label>
 
                 <br><br>
 
                 <label>El teu testimoni:</label>
                 <br>
-                <textarea id="testimoni" rows="8" cols="80"></textarea>
+                <textarea id="testimoni" rows="8" cols="80" required></textarea>
                 <br>
                 <input type="submit" value="Enviar">
             </form>
