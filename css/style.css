@@ -50,11 +50,9 @@ nav table {
 /* Section */
 section {
     /* border: 1px black solid; */
-    padding: 20px;
+    padding: 0px;
     width: 80%;
-    margin-top: 200px;
-    margin-left: 100px;
-    margin-bottom: 150px;
+    margin: 200px 10%;
 }
 /* End section */
 
@@ -86,6 +84,17 @@ footer p:not(p.nomsFooter) {
     margin: auto;
 }
 /* End footer */
+
+/* Index */
+section.index h3 {
+    border-top: 1px black solid;
+}
+
+ul.index li {
+    margin-top: -10px;
+    margin-left: 25px;
+}
+/* Final Index */
 
 /* Galeria */
 .galeria {
@@ -244,6 +253,9 @@ footer p:not(p.nomsFooter) {
 /* Modificacio de Seccio per Adopcio.html */
 section.adopcioS {
     /* background-color: lightpink; */
+    padding: 0px;
+    width: 0px;
+    margin: 200px 0px;
     float: left;
     width: 60%;
     margin-left: 2.5%;
