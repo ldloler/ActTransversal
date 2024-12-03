@@ -348,6 +348,10 @@ section.adopcioS {
     float: left;
     width: 60%;
     margin-left: 2.5%;
+    background-color: gray;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #383a31;
 }
 
 /* Aquest es l'Article de la dreta. I el css de les seves etiquetes interiors.*/
