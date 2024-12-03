@@ -17,9 +17,10 @@ header {
     width: 100%;
 }
 
-img.logo, .Hveterinaria h1 {
+img.logo,
+.Hveterinaria h1 {
     margin: 5px 7px;
-    width: 200px; 
+    width: 200px;
     height: 100px;
     float: left;
 }
@@ -46,6 +47,7 @@ nav table {
     width: 100%;
     padding: 5px 5px 5px 30px;
 }
+
 /* End header */
 
 /* Section */
@@ -55,6 +57,7 @@ section {
     width: 80%;
     margin: 200px 10%;
 }
+
 /* End section */
 
 /* footer */
@@ -85,9 +88,17 @@ footer p:not(p.nomsFooter) {
     /* border: 1px black solid; */
     margin: auto;
 }
+
 /* End footer */
 
 /* Index */
+section.index {
+    background-color: gray;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #383a31;
+}
+
 section.index h3 {
     border-top: 1px black solid;
 }
@@ -96,6 +107,7 @@ ul.index li {
     margin-top: -10px;
     margin-left: 25px;
 }
+
 /* Final Index */
 
 /* Galeria */
@@ -110,7 +122,8 @@ ul.index li {
     display: flex;
 }
 
-.galeria td, .galeria th {
+.galeria td,
+.galeria th {
     width: 150px;
     text-align: center;
     border: 3px solid #383a31;
@@ -125,6 +138,7 @@ ul.index li {
 .galeria img {
     width: 100%;
 }
+
 /* End Galeria */
 
 /* Recomenacions */
@@ -139,6 +153,7 @@ ul.index li {
     display: flex;
     justify-content: space-between;
 }
+
 .recomenacions div {
     width: 25%;
     border: 3px solid black;
@@ -154,15 +169,16 @@ ul.index li {
 }
 
 .recomenacions .gossos {
-    background-color: #FF7043 
+    background-color: #FF7043
 }
 
 .recomenacions .gossos dl {
-    background-color: #ffb43b ;
+    background-color: #ffb43b;
     border: 1px black solid;
 }
+
 .recomenacions .gats {
-    background-color: #9f9ddb; 
+    background-color: #9f9ddb;
 }
 
 .recomenacions .gats dl {
@@ -171,7 +187,7 @@ ul.index li {
 }
 
 .recomenacions .altres {
-    background-color: #A5D6A7; 
+    background-color: #A5D6A7;
 }
 
 .recomenacions .altres dl {
@@ -188,7 +204,7 @@ ul.index li {
     border: 3px solid black;
     border-radius: 10px;
     box-shadow: 0 4px 8px #383a31;
-    padding: 20px; 
+    padding: 20px;
     margin: left;
     width: 700px;
 }
@@ -201,7 +217,7 @@ ul.index li {
     margin-right: 10px;
 }
 
-.testimoni input     {
+.testimoni input {
     background-color: lightgray;
 }
 
@@ -238,7 +254,7 @@ ul.index li {
     padding: 10px;
     margin: 10px;
     width: 50%;
-    
+
 }
 
 .nosaltres #adria img {
@@ -288,7 +304,8 @@ ul.index li {
     font-size: 18px;
 }
 
-#nosaltresAdria th, td {
+#nosaltresAdria th,
+td {
     border: 1px black solid;
     padding: 10px;
     background-color: lightgray;
@@ -318,6 +335,7 @@ ul.index li {
     border-radius: 10px;
     box-shadow: 0 4px 8px #383a31;
 }
+
 /* End TestimoniEnviat */
 
 /* CSS de Adopcio.html */
@@ -330,6 +348,10 @@ section.adopcioS {
     float: left;
     width: 60%;
     margin-left: 2.5%;
+    background-color: gray;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #383a31;
 }
 
 /* Aquest es l'Article de la dreta. I el css de les seves etiquetes interiors.*/
@@ -343,11 +365,11 @@ article.adopcio {
     margin-bottom: 150px;
 }
 
-article.adopcio>*{
+article.adopcio>* {
     margin-left: 15px;
 }
 
-article.adopcio>p{
+article.adopcio>p {
     margin-left: 45px;
     margin-right: 45px;
 }
@@ -356,6 +378,7 @@ span.adopcioArticle {
     margin-left: -17px;
     font-weight: bolder;
 }
+
 /* Fi article */
 
 /* Aquest div hi van els animals */
@@ -367,36 +390,38 @@ div.adopcioContainer {
 }
 
 /* Taula animals */
-div.adopcioContainer>table{
+div.adopcioContainer>table {
     width: 100%;
 }
 
-div.adopcioContainer table, div.adopcioContainer>table *:not(p, img){
+div.adopcioContainer table,
+div.adopcioContainer>table *:not(p, img) {
     border-bottom: 1px black solid;
     border-collapse: collapse;
 }
 
-div.adopcioContainer>table th:first-of-type{
+div.adopcioContainer>table th:first-of-type {
     border-top: 1px black solid;
 }
 
-div.adopcioContainer>table th{
+div.adopcioContainer>table th {
     height: 50px;
     font-size: 25px;
 }
 
-div.adopcioContainer>table td:first-child{
+div.adopcioContainer>table td:first-child {
     width: 50%;
     height: 300PX;
 }
 
-div.adopcioContainer>table td p{
+div.adopcioContainer>table td p {
     margin-left: 30px;
 }
 
-div.adopcioContainer>table img{
+div.adopcioContainer>table img {
     width: 100%;
 }
+
 /* Fi div Animals */
 
 /* Final CSS Article.html */
