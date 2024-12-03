@@ -1,12 +1,37 @@
 /* INICI nosaltresMarc */
 /* Per poder tornar al pare */
+
+#nosaltresMarc {
+    background-color: gray;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #383a31;
+    text-align: center;
+}
+
+#nosaltresMarc table {
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+}
+
+#nosaltresMarc th,
+td {
+    border: 1px black solid;
+    padding: 10px;
+    background-color: lightgray;
+}
+
 div.tornar {
     float: right;
+    margin-right: 100px;
 }
 
 div.marcTitol {
     float: left;
     width: 800px;
+    text-align: left;
+    margin-left: 100px;
 }
 
 img#imgMarc {
@@ -14,8 +39,50 @@ img#imgMarc {
     padding: 0px 25%;
 }
 
-div.cvMarc {
-    border: 1px pink solid;
-    padding: 0 10%;
+h2 {
+    margin-top: 50px;
+}
+
+div.habilitatsList {
+    /* border: 1px black solid; */
+    width: fit-content;
+    justify-self: center;
+    text-align: left;
+}
+
+div.experiencies {
+    width: 50%;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+}
+
+div.experiencies>div {
+    border: 1px black solid;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+
+div.experiencies>div * {
+    width: fit-content;
+    position: relative;
+    margin-left: 5px;
+}
+
+div.experiencies>div p {
+    margin: 3px 5px 0px;
+}
+
+#menys5 {
+    text-align: left;
+}
+
+table {
+    margin-bottom: 15px;
 }
 /* Final nosaltresMarc */
