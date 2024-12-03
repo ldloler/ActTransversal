@@ -28,7 +28,7 @@
             </nav>
         </header>
         <section class="testimoni">
-            <form>
+            <form action="testimoniEnviat.html" method="post">
                 <legend><h1>Testimoni</h1></legend>
 
                 <label>Nom:</label>
@@ -37,43 +37,39 @@
                 <label id="cognomsLabel">Cognoms:</label>
                 <input type="text" id="cognoms" required>
 
-                <br>
-
                 <label>Edat:</label>
                 <input type="number" id="edat" min="1" max="99"  required>
-                <label id="emailLabel">Correu electrònic: </label>
-                <input type="email" id="email" placeholder="Ex: correu@electronic.com" required>
+                <div>
+                    <label id="emailLabel">Correu electrònic: </label>
+                    <input type="email" id="email" placeholder="Ex: correu@electronic.com" required>
 
-                <br>
+                    <label for="sexe">Sexe:</label>
+                    <select id="sexe" name="sexe" required>
+                        <option value="" disabled selected hidden></option>
+                        <option value="home">Home</option>
+                        <option value="dona">Dona</option>
+                        <option value="altres">Altres</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Grau de satisfacció: </label>
+                    <input type="radio" id="moltsatisfet" name="satisfaccio" required>
+                    <label>Molt satisfet</label>
+                    <input type="radio" id="satisfet" name="satisfaccio" required>
+                    <label>Satisfet</label>
+                    <input type="radio" id="pocsatisfet" name="satisfaccio" required>
+                    <label>Poc satisfet</label>
+                    <input type="radio" id="genssatisfet" name="satisfaccio" required>
+                    <label>Gens satisfet</label>
+                </div>
+                
 
-                <label>Sexe:</label>
-                <input type="radio" id="home" name="sexe" required>
-                <label>Home</label>
-                <input type="radio" id="dona" name="sexe" required>
-                <label>Dona</label>
-                <input type="radio" id="altres" name="sexe" required>
-                <label>Altres</label>
 
-                <br>
-                <br>
+                <div>
+                    <label>El teu testimoni:</label>
+                    <textarea id="testimoni" rows="8" cols="80" required></textarea>
+                <div>
 
-                <label>Grau de satisfacció: </label>
-                <br>
-                <input type="radio" id="moltsatisfet" name="satisfaccio" required>
-                <label>Molt satisfet</label>
-                <input type="radio" id="satisfet" name="satisfaccio" required>
-                <label>Satisfet</label>
-                <input type="radio" id="pocsatisfet" name="satisfaccio" required>
-                <label>Poc satisfet</label>
-                <input type="radio" id="genssatisfet" name="satisfaccio" required>
-                <label>Gens satisfet</label>
-
-                <br><br>
-
-                <label>El teu testimoni:</label>
-                <br>
-                <textarea id="testimoni" rows="8" cols="80" required></textarea>
-                <br>
                 <input type="submit" value="Enviar">
             </form>
         </section>
