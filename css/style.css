@@ -273,7 +273,10 @@ footer p:not(p.nomsFooter) {
 #nosaltresAdria table {
     display: flex;
     justify-content: center;
-    
+}
+
+#nosaltresAdria label {
+    font-size: 18px;
 }
 
 #nosaltresAdria th, td {
