@@ -9,7 +9,8 @@ div.body {
 
 /* Header */
 header {
-    background-color: #43ff6c;
+    background-color: #383a31;
+    color: lightgray;
     position: absolute;
     top: 0;
     left: 0;
@@ -61,7 +62,8 @@ section {
 /* footer */
 footer {
     /* border: 5px red solid; */
-    background-color: #43ff6c;
+    background-color: #383a31;
+    color: lightgray;
     text-align: center;
     position: absolute;
     bottom: 0;
@@ -88,6 +90,13 @@ footer p:not(p.nomsFooter) {
 /* End footer */
 
 /* Galeria */
+#galeriaTotal {
+    background-color: gray;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #383a31;
+}
+
 .galeria {
     display: flex;
 }
@@ -110,15 +119,22 @@ footer p:not(p.nomsFooter) {
 /* End Galeria */
 
 /* Recomenacions */
+#recomenacionsTotal {
+    background-color: gray;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #383a31;
+}
+
 .recomenacions {
     display: flex;
     justify-content: space-between;
-
 }
 .recomenacions div {
     width: 25%;
-    border: 1px black solid;
-    color: #212121;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #383a31;
     margin: 0;
     padding: 20px;
 }
@@ -129,19 +145,19 @@ footer p:not(p.nomsFooter) {
 }
 
 .recomenacions .gossos {
-    background-color: #FFEB3B 
+    background-color: #FF7043 
 }
 
 .recomenacions .gossos dl {
-    background-color: #FF7043;
+    background-color: #ffb43b ;
     border: 1px black solid;
 }
 .recomenacions .gats {
-    background-color: #B39DDB; 
+    background-color: #9f9ddb; 
 }
 
 .recomenacions .gats dl {
-    background-color: #FF4081;
+    background-color: #b4daff;
     border: 1px black solid;
 }
 
@@ -150,7 +166,7 @@ footer p:not(p.nomsFooter) {
 }
 
 .recomenacions .altres dl {
-    background-color: #FF7043;
+    background-color: #b4ff43;
     border: 1px black solid;
 }
 
@@ -239,6 +255,61 @@ footer p:not(p.nomsFooter) {
 }
 
 /* End Nosaltres */
+
+/* NosaltresAdria */
+
+#nosaltresAdria {
+    background-color: gray;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #383a31;
+    text-align: center;
+}
+
+#nosaltresAdria ul {
+    list-style-type: none;
+}
+
+#nosaltresAdria table {
+    display: flex;
+    justify-content: center;
+}
+
+#nosaltresAdria label {
+    font-size: 18px;
+}
+
+#nosaltresAdria th, td {
+    border: 1px black solid;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+/* End NosaltresAdria */
+
+/* Contactans */
+
+.contactans {
+    background-color: gray;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #383a31;
+}
+
+/* End Contactans */
+
+/* TestimoniEnviat */
+
+#botoTornar {
+    color: lightgray;
+    font-size: 20px;
+    background-color: grey;
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #383a31;
+}
+/* End TestimoniEnviat */
 
 /* CSS de Adopcio.html */
 /* Modificacio de Seccio per Adopcio.html */
