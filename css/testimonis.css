@@ -1,0 +1,29 @@
+/* Testimonis */
+
+.testimoni form {
+    background-color: gray;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #383a31;
+    padding: 20px;
+    margin: left;
+    width: 700px;
+}
+
+.testimoni #nom {
+    margin-right: 10px;
+}
+
+.testimoni #edat {
+    margin-right: 10px;
+}
+
+.testimoni input {
+    background-color: lightgray;
+}
+
+.testimoni textarea {
+    background-color: lightgray;
+}
+
+/* End Testimonis */
