@@ -1,0 +1,18 @@
+/* Index */
+section.index {
+    background-color: gray;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #383a31;
+}
+
+section.index h3 {
+    border-top: 1px black solid;
+}
+
+ul.index li {
+    margin-top: -10px;
+    margin-left: 25px;
+}
+
+/* Final Index */

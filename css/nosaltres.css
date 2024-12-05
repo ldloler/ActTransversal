@@ -1,0 +1,53 @@
+/* Nosaltres */
+
+.nosaltres {
+    background-color: gray;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #383a31;
+}
+
+.nosaltres h2 {
+    text-align: center;
+}
+
+.nosaltres .persones {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.nosaltres #adria {
+    background-color: lightgray;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #383a31;
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+
+}
+
+.nosaltres #adria img {
+    border: 3px solid black;
+    width: 100%;
+    height: 75%;
+}
+
+.nosaltres #marc {
+    background-color: lightgray;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #383a31;
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+}
+
+.nosaltres #marc img {
+    border: 3px solid black;
+    width: 100%;
+    height: 75%;
+}
+
+/* End Nosaltres */

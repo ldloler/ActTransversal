@@ -1,0 +1,31 @@
+/* NosaltresAdria */
+
+#nosaltresAdria {
+    background-color: gray;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #383a31;
+    text-align: center;
+}
+
+#nosaltresAdria ul {
+    list-style-type: none;
+}
+
+#nosaltresAdria table {
+    display: flex;
+    justify-content: center;
+}
+
+#nosaltresAdria label {
+    font-size: 18px;
+}
+
+#nosaltresAdria th,
+td {
+    border: 1px black solid;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+/* End NosaltresAdria */

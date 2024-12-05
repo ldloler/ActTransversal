@@ -1,0 +1,55 @@
+/* Recomenacions */
+#recomenacionsTotal {
+    background-color: gray;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #383a31;
+}
+
+.recomenacions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recomenacions div {
+    width: 25%;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #383a31;
+    margin: 0;
+    padding: 20px;
+}
+
+.recomenacions h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.recomenacions .gossos {
+    background-color: #FF7043
+}
+
+.recomenacions .gossos dl {
+    background-color: #ffb43b;
+    border: 1px black solid;
+}
+
+.recomenacions .gats {
+    background-color: #9f9ddb;
+}
+
+.recomenacions .gats dl {
+    background-color: #b4daff;
+    border: 1px black solid;
+}
+
+.recomenacions .altres {
+    background-color: #A5D6A7;
+}
+
+.recomenacions .altres dl {
+    background-color: #b4ff43;
+    border: 1px black solid;
+}
+
+/* End Recomenacions */

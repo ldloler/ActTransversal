@@ -1,0 +1,30 @@
+/* Galeria */
+#galeriaTotal {
+    background-color: gray;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #383a31;
+}
+
+.galeria {
+    display: flex;
+}
+
+.galeria td,
+.galeria th {
+    width: 150px;
+    text-align: center;
+    border: 3px solid #383a31;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.galeria th {
+    font-size: 20px;
+}
+
+.galeria img {
+    width: 100%;
+}
+
+/* End Galeria */
